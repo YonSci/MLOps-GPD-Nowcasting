@@ -14,6 +14,22 @@ Benefits of the tool:
   - **Reproducibility**: Ensures consistent and reliable results, enabling reproducible GDP Nowcasting implementations.
   - **User-Friendliness**: Maintains the user-friendly aspect of the tool.
 
+**Data Sources**
+  
+We combine [Google Trend](https://trends.google.com/trends/) search volume data with GDP data from various sources to train multiple machine learning prediction models.
+
+  **Sources for GDP data:**
+  
+  - [International Monetary Fund (IMF)](https://www.imf.org/en/Data)
+  - [World Bank](https://data.worldbank.org/indicator/)
+  - [Organization for Economic Co-operation and Development (OECD)](https://www.oecd.org/sdd/na/)
+    
+  - National Statistical Offices:
+    - [Nigeria](https://www.nigerianstat.gov.ng/)
+    - [Senegal](https://www.ansd.sn/)
+    - [Kenya](https://www.knbs.or.ke/)
+    - [Egypt](https://www.capmas.gov.eg/)
+
 
 
 
