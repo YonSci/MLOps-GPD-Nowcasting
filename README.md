@@ -1,4 +1,27 @@
-MLOps-GPD-Nowcasting
+## Welcome to the ML based GDP Nowcasting Tool 
+
+<details>
+  <summary>📊 **Project Overview**</summary>
+  
+  <div style="text-align: justify">
+    <p>The GDP Nowcasting app utilizes advanced machine learning algorithms and Google Trends search volume data to deliver accurate and timely GDP predictions. Having up-to-date information on the current state of the economy is essential for effective macroeconomic policymaking, especially during periods of rapid economic change or crises when traditional statistical data sources are unavailable or inaccessible.</p>
+
+    <p>The near real-time predictions on the current state of GDP empower policymakers, economists, and business leaders across Africa to make data-driven decisions and develop effective strategies for the continent's economic landscape.</p>
+
+    <p>This user-friendly tool empowers you to leverage the power of Machine Learning Operations (MLOps) to automate the entire GDP nowcasting pipeline, including workflows, deployments, and the implementation of various machine learning algorithms.</p>
+  
+    Benefits of the tool:
+    
+    - **Automation**: Focuses on automating the entire pipeline, including the Machine Learning workflows and deployments.
+    - **Scalability**: The tool facilitates scalable GDP Nowcasting via MLOps-powered frameworks, allowing it to handle growing data volumes and customization to different countries effortlessly.
+    - **Reproducibility**: Ensures consistent and reliable results, enabling reproducible GDP Nowcasting implementations.
+    - **User-Friendliness**: Maintains the user-friendly aspect of the tool.
+  </div>
+</details>
+
+
+
+
 ==============================
 
 This user-friendly tool empowers you to leverage the power of Machine Learning Operations (MLOps) to automate the entire GDP nowcasting pipeline, including workflows, deployments, and the implementation of various machine learning algorithms.
