@@ -1,6 +1,7 @@
-## Welcome to the ML based GDP Nowcasting Tool 
+# Welcome to the ML based GDP Nowcasting Tool 
 
-📊 **Project Overview** 
+📊 Project Overview
+-------------------
   
 <p>The GDP Nowcasting app utilizes advanced machine learning algorithms and Google Trends search volume data to deliver accurate and timely GDP predictions. Having up-to-date information on the current state of the economy is essential for effective macroeconomic policymaking, especially during periods of rapid economic change or crises when traditional statistical data sources are unavailable or inaccessible.</p>
 
@@ -14,7 +15,8 @@ Benefits of the tool:
   - **Reproducibility**: Ensures consistent and reliable results, enabling reproducible GDP Nowcasting implementations.
   - **User-Friendliness**: Maintains the user-friendly aspect of the tool.
 
-**Data Sources**
+Data Sources
+---------------
   
 We combine [Google Trend](https://trends.google.com/trends/) search volume data with GDP data from various sources to train multiple machine learning prediction models.
 
@@ -23,7 +25,6 @@ We combine [Google Trend](https://trends.google.com/trends/) search volume data 
   - [International Monetary Fund (IMF)](https://www.imf.org/en/Data)
   - [World Bank](https://data.worldbank.org/indicator/)
   - [Organization for Economic Co-operation and Development (OECD)](https://www.oecd.org/sdd/na/)
-    
   - National Statistical Offices:
     - [Nigeria](https://www.nigerianstat.gov.ng/)
     - [Senegal](https://www.ansd.sn/)
@@ -34,9 +35,8 @@ We combine [Google Trend](https://trends.google.com/trends/) search volume data 
 
 
 
-==============================
 
-This user-friendly tool empowers you to leverage the power of Machine Learning Operations (MLOps) to automate the entire GDP nowcasting pipeline, including workflows, deployments, and the implementation of various machine learning algorithms.
+
 
 Project Organization
 ------------
