@@ -51,9 +51,6 @@ First, data is collected and pre-processed. Next, datasets are built for trainin
 
 ![Alt text](/reports/figures/ML_workflow_bg.jpg)
 
-<img src="reports\figures\ML_workflow_no_bg.png" >
-
-
 --------
 
 Project Modules
