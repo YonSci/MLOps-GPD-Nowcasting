@@ -69,21 +69,17 @@ def Landing_Page():
 
     with st.expander("**Methodology**"):
         st.markdown("""
-            
-            <div style="text-align: justify">
             This mind map provides a structured overview of the complex ML process involved in GDP nowcasting. Overall, this mind map outlines the key steps involved in developing a machine learning model for GDP Nowcasting. It emphasizes data preparation, model selection, training, and ongoing monitoring for accurate and timely GDP predictions. Each stage plays a crucial role in building accurate models for economic forecasting. 
-            `![Alt text](/reports/figures/mind_map_bg.jpg)`
-                    
+            """, unsafe_allow_html=True
+        )
+        st.image(f'reports/figures/mind_map_bg.jpg')
+        st.markdown("""         
             The flowchart captures the essential steps involved in building and deploying a machine learning model for GDP Nowcasting. The Machine Learning (ML) workflow involves several key steps. 
             First, data is collected and pre-processed. Next, datasets are built for training and evaluation. Model selection and algorithm training follow, with hyperparameter tuning to optimize performance. The model is then evaluated, and if satisfactory, deployed for real-world use. Monitoring and maintenance ensure ongoing effectiveness. If the model doesn’t meet expectations, retraining occurs. This iterative process continues until the model performs well.
-            `![Alt text](/reports/figures/ML_workflow_bg.jpg)`
-                    
-            
-            </div>
-            
             """, unsafe_allow_html=True
-            )
-
+        )
+        st.image(f'reports/figures/ML_workflow_bg.jpg')
+        
 
     with st.expander("**Project Modules**"):
         st.markdown("""
