@@ -16,6 +16,8 @@ Benefits of the tool:
   - **Reproducibility**: Ensures consistent and reliable results, enabling reproducible GDP Nowcasting implementations.
   - **User-Friendliness**: Maintains the user-friendly aspect of the tool.
 
+--------
+
 Data Sources
 ---------------
   
@@ -33,10 +35,13 @@ We combine [Google Trend](https://trends.google.com/trends/) search volume data 
     - [Egypt](https://www.capmas.gov.eg/)
 
 
+--------
+
 Methodology
 -------------
 The project is developed by the African Center for Statistics (ACS) at the United Nations Economic Commission for Africa (UNECA) and supported by the Regular Program of Technical Cooperation.
 
+--------
 
 Project Modules
 ---------------
@@ -50,6 +55,7 @@ The project is divided into 5 modules:
   - **Model Evaluation**: This module uses various metrics to evaluate how well the trained models predict GDP compared to actual data. It helps identify the best-performing model for real-world use.
   - **Visualization & Interpretation**: This module creates visualizations to showcase the model's predictions and how different features influence the GDP estimates. It helps users understand the model's reasoning and gain valuable economic insights.
 
+--------
 
 Resources
 -------------
@@ -60,10 +66,14 @@ Explore resources designed to help you make the most of our platform:
   - [Blog](https://github.com/YonSci/GPD-Nowcasting)
 
 
+--------
+
 Acknowledgments
 ------------------
 
 The project is developed by the African Center for Statistics (ACS) at the United Nations Economic Commission for Africa (UNECA) and supported by the Regular Program of Technical Cooperation (RPTC).
+
+--------
 
 Contact Us
 ------------
