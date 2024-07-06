@@ -1,16 +1,15 @@
 Welcome to the ML based GDP Nowcasting Tool 
-===========================================
+=============================================
 
---------
 
 📊 Project Overview
 -------------------
   
-<p>The GDP Nowcasting app utilizes advanced machine learning algorithms and Google Trends search volume data to deliver accurate and timely GDP predictions. Having up-to-date information on the current state of the economy is essential for effective macroeconomic policymaking, especially during periods of rapid economic change or crises when traditional statistical data sources are unavailable or inaccessible.</p>
+The GDP Nowcasting app utilizes advanced machine learning algorithms and Google Trends search volume data to deliver accurate and timely GDP predictions. Having up-to-date information on the current state of the economy is essential for effective macroeconomic policymaking, especially during periods of rapid economic change or crises when traditional statistical data sources are unavailable or inaccessible.
 
-<p>The near real-time predictions on the current state of GDP empower policymakers, economists, and business leaders across Africa to make data-driven decisions and develop effective strategies for the continent's economic landscape.</p>
+The near real-time predictions on the current state of GDP empower policymakers, economists, and business leaders across Africa to make data-driven decisions and develop effective strategies for the continent's economic landscape.
 
-<p>This user-friendly tool empowers you to leverage the power of Machine Learning Operations (MLOps) to automate the entire GDP nowcasting pipeline, including workflows, deployments, and the implementation of various machine learning algorithms.</p>
+This user-friendly tool empowers you to leverage the power of Machine Learning Operations (MLOps) to automate the entire GDP nowcasting pipeline, including workflows, deployments, and the implementation of various machine learning algorithms.
   
 Benefits of the tool:
   - **Automation**: Focuses on automating the entire pipeline, including the Machine Learning workflows and deployments.
@@ -21,7 +20,7 @@ Benefits of the tool:
 --------
 
 Data Sources
----------------
+-------------
   
 We combine [Google Trend](https://trends.google.com/trends/) search volume data with GDP data from various sources to train multiple machine learning prediction models.
 
@@ -42,7 +41,13 @@ We combine [Google Trend](https://trends.google.com/trends/) search volume data 
 Methodology
 -------------
 
+This mind map provides a structured overview of the complex ML process involved in GDP nowcasting. Overall, this mind map outlines the key steps involved in developing a machine learning model for GDP Nowcasting. It emphasizes data preparation, model selection, training, and ongoing monitoring for accurate and timely GDP predictions. Each stage plays a crucial role in building accurate models for economic forecasting. 
+
 ![Alt text](/reports/figures/mind_map_bg.jpg)
+
+The flowchart captures the essential steps involved in building and deploying a machine learning model for GDP Nowcasting. The Machine Learning (ML) workflow involves several key steps. 
+
+First, data is collected and pre-processed. Next, datasets are built for training and evaluation. Model selection and algorithm training follow, with hyperparameter tuning to optimize performance. The model is then evaluated, and if satisfactory, deployed for real-world use. Monitoring and maintenance ensure ongoing effectiveness. If the model doesn’t meet expectations, retraining occurs. This iterative process continues until the model performs well.
 
 ![Alt text](/reports/figures/ML_workflow_bg.jpg)
 
@@ -66,12 +71,15 @@ Resources
 -------------
 
 Explore resources designed to help you make the most of our platform:
-  - [Github Project Link](https://github.com/YonSci/GPD-Nowcasting)
-  - [Tutorials](https://github.com/YonSci/GPD-Nowcasting)
+  - [Github Project Link](https://github.com/YonSci/MLOps-GPD-Nowcasting/tree/master)
+  - [Tutorials](https://github.com/YonSci/MLOps-GPD-Nowcasting/tree/master/notebooks)
+  - [Data](https://github.com/YonSci/MLOps-GPD-Nowcasting/tree/master/data)
+  - [Model](https://github.com/YonSci/MLOps-GPD-Nowcasting/tree/master/models)
+  - [Documentation](https://github.com/YonSci/MLOps-GPD-Nowcasting/tree/master/reports)
   - [Blog](https://github.com/YonSci/GPD-Nowcasting)
 
-
 --------
+
 
 Acknowledgments
 ------------------
@@ -79,6 +87,7 @@ Acknowledgments
 The project is developed by the African Center for Statistics (ACS) at the United Nations Economic Commission for Africa (UNECA) and supported by the Regular Program of Technical Cooperation (RPTC).
 
 --------
+
 
 Contact Us
 ------------
@@ -136,4 +145,5 @@ Project Organization
     │       └── visualize.py
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+
 --------
