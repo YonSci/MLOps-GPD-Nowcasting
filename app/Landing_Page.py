@@ -84,8 +84,7 @@ def Landing_Page():
                     The project is divided into 5 modules: 
 
                     - **Data Downloader Module**: This module retrieves Google Trends data for a specified keyword and country, as well as GDP data.
-                    - **Data Preprocessing Module**: This module preprocesses the Google Trends and GDP data (Data Cleaning, Outlier Detection and Removal, Time Series Transformation, Resampling, Decomposition, and Data Integration etc).  
-                    - **Feature Engineering**: This module create new features based on existing data to improve model performance.   
+                    - **Data Preprocessing Module**: This module preprocesses the Google Trends and GDP data (Data Cleaning, Outlier Detection and Removal, Time Series Transformation, Resampling, Decomposition, and Data Integration etc).  In addtion, this module creates new features based on existing data to improve model performance. 
                     - **Model Development**: This module trains different machine learning models on the preprocessed data.    
                     - **Model Evaluation**: This module uses various metrics to evaluate how well the trained models predict GDP compared to actual data. It helps identify the best-performing model for real-world use. 
                     - **Visualization & Interpretation**: This module creates visualizations to showcase the model's predictions and how different features influence the GDP estimates. It helps users understand the model's reasoning and gain valuable economic insights.  

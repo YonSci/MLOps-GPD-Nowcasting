@@ -10,7 +10,9 @@ The GDP Nowcasting app utilizes advanced machine learning algorithms and Google 
 The near real-time predictions on the current state of GDP empower policymakers, economists, and business leaders across Africa to make data-driven decisions and develop effective strategies for the continent's economic landscape.
 
 This user-friendly tool empowers you to leverage the power of Machine Learning Operations (MLOps) to automate the entire GDP nowcasting pipeline, including workflows, deployments, and the implementation of various machine learning algorithms.
-  
+
+The app is deployed on streamlit cloud sever [GDP ML app](https://mlops-gpd-nowcasting-88t9uagbxrtgq2ajmbpcw4.streamlit.app/) 
+
 Benefits of the tool:
   - **Automation**: Focuses on automating the entire pipeline, including the Machine Learning workflows and deployments.
   - **Scalability**: The tool facilitates scalable GDP Nowcasting via MLOps-powered frameworks, allowing it to handle growing data volumes and customization to different countries effortlessly.
@@ -59,8 +61,7 @@ Project Modules
 The project is divided into 5 modules:
   
   - **Data Downloader Module**: This module retrieves Google Trends data for a specified keyword and country, as well as GDP data.
-  - **Data Preprocessing Module**: This module preprocesses the Google Trends and GDP data (Data Cleaning, Outlier Detection and Removal, Time Series Transformation, Resampling, Decomposition, and Data Integration etc).
-  - **Feature Engineering**: This module creates new features based on existing data to improve model performance.
+  - **Data Preprocessing Module**: This module preprocesses the Google Trends and GDP data (Data Cleaning, Outlier Detection and Removal, Time Series Transformation, Resampling, Decomposition, and Data Integration etc). In addtion, this module creates new features based on existing data to improve model performance.
   - **Model Development**: This module trains different machine learning models on the preprocessed data.
   - **Model Evaluation**: This module uses various metrics to evaluate how well the trained models predict GDP compared to actual data. It helps identify the best-performing model for real-world use.
   - **Visualization & Interpretation**: This module creates visualizations to showcase the model's predictions and how different features influence the GDP estimates. It helps users understand the model's reasoning and gain valuable economic insights.
