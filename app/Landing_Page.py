@@ -71,7 +71,14 @@ def Landing_Page():
         st.markdown("""
             
             <div style="text-align: justify">
-            <p> The project is developed by the African Center for Statistics (ACS) at the United Nations Economic Commission for Africa (UNECA) and supported by the Regular Program of Technical Cooperation (RPTC). </p> 
+            This mind map provides a structured overview of the complex ML process involved in GDP nowcasting. Overall, this mind map outlines the key steps involved in developing a machine learning model for GDP Nowcasting. It emphasizes data preparation, model selection, training, and ongoing monitoring for accurate and timely GDP predictions. Each stage plays a crucial role in building accurate models for economic forecasting. 
+            ![Alt text](/reports/figures/mind_map_bg.jpg)
+                    
+            The flowchart captures the essential steps involved in building and deploying a machine learning model for GDP Nowcasting. The Machine Learning (ML) workflow involves several key steps. 
+            First, data is collected and pre-processed. Next, datasets are built for training and evaluation. Model selection and algorithm training follow, with hyperparameter tuning to optimize performance. The model is then evaluated, and if satisfactory, deployed for real-world use. Monitoring and maintenance ensure ongoing effectiveness. If the model doesn’t meet expectations, retraining occurs. This iterative process continues until the model performs well.
+            ![Alt text](/reports/figures/ML_workflow_bg.jpg)
+                    
+            
             </div>
             
             """, unsafe_allow_html=True
@@ -100,10 +107,14 @@ def Landing_Page():
                 <div style="text-align: justify">
                 <p> Explore resources designed to help you make the most of our platform:</p>
                     
-                - <a href=" https://github.com/YonSci/GPD-Nowcasting"> Github Project Link</a>    
-                - <a href=" https://github.com/YonSci/GPD-Nowcasting"> Tutorials </a>    
-                - <a href=" https://github.com/YonSci/GPD-Nowcasting"> Blog </a>   
-                    
+                - <a href="https://github.com/YonSci/MLOps-GPD-Nowcasting/tree/master"> Github Project Link</a>    
+                - <a href="https://github.com/YonSci/MLOps-GPD-Nowcasting/tree/master/notebooks"> Tutorials </a>  
+                - <a href="https://github.com/YonSci/MLOps-GPD-Nowcasting/tree/master/data"> Data </a>
+                - <a href="https://github.com/YonSci/MLOps-GPD-Nowcasting/tree/master/models"> Model </a>
+                - <a href="https://github.com/YonSci/MLOps-GPD-Nowcasting/tree/master/reports"> </a> Documentation </a>   
+                - <a href=" https://github.com/YonSci/GPD-Nowcasting"> Blog </a>  
+
+
                 </div>
                 
                 """, unsafe_allow_html=True
@@ -129,7 +140,7 @@ def Landing_Page():
 
                     - **Anjana Dube**, Senior Regional Advisor | African Centre for Statistics (ACS) | United Nations Economic Commission for Africa (UNECA) | anjana.dube@un.org
                     - **Issoufou Seidou**, Principal Statistician | African Centre for Statistics (ACS) | United Nations Economic Commission for Africa (UNECA) | seidoui@un.org
-                    - **Yonas Mersha**, Data Science Consultant | African Centre for Statistics (ACS) | United Nations Economic Commission for Africa (UNECA) |  yonas.yigezu@un.org
+                    - **Yonas Mersha**, Data Science Consultant | African Centre for Statistics (ACS) | United Nations Economic Commission for Africa (UNECA) | yonas.yigezu@un.org
                     </div>
                     
                     """, unsafe_allow_html=True
