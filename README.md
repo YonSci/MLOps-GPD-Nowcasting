@@ -32,10 +32,44 @@ We combine [Google Trend](https://trends.google.com/trends/) search volume data 
     - [Egypt](https://www.capmas.gov.eg/)
 
 
+Methodology
+-------------
+The project is developed by the African Center for Statistics (ACS) at the United Nations Economic Commission for Africa (UNECA) and supported by the Regular Program of Technical Cooperation.
 
 
+Project Modules
+---------------
+
+The project is divided into 5 modules:
+  
+  - **Data Downloader Module**: This module retrieves Google Trends data for a specified keyword and country, as well as GDP data.
+  - **Data Preprocessing Module**: This module preprocesses the Google Trends and GDP data (Data Cleaning, Outlier Detection and Removal, Time Series Transformation, Resampling, Decomposition, and Data Integration etc).
+  - **Feature Engineering**: This module creates new features based on existing data to improve model performance.
+  - **Model Development**: This module trains different machine learning models on the preprocessed data.
+  - **Model Evaluation**: This module uses various metrics to evaluate how well the trained models predict GDP compared to actual data. It helps identify the best-performing model for real-world use.
+  - **Visualization & Interpretation**: This module creates visualizations to showcase the model's predictions and how different features influence the GDP estimates. It helps users understand the model's reasoning and gain valuable economic insights.
 
 
+Resources
+-------------
+
+Explore resources designed to help you make the most of our platform:
+  - [Github Project Link](https://github.com/YonSci/GPD-Nowcasting)
+  - [Tutorials](https://github.com/YonSci/GPD-Nowcasting)
+  - [Blog](https://github.com/YonSci/GPD-Nowcasting)
+
+
+Acknowledgments
+------------------
+
+The project is developed by the African Center for Statistics (ACS) at the United Nations Economic Commission for Africa (UNECA) and supported by the Regular Program of Technical Cooperation (RPTC).
+
+Contact Us
+------------
+  
+  - **Anjana Dube**, Senior Regional Advisor | African Centre for Statistics (ACS) | United Nations Economic Commission for Africa (UNECA) | anjana.dube@un.org
+  - **Issoufou Seidou**, Principal Statistician | African Centre for Statistics (ACS) | United Nations Economic Commission for Africa (UNECA) | seidoui@un.org
+  - **Yonas Mersha**, Data Science Consultant | African Centre for Statistics (ACS) | United Nations Economic Commission for Africa (UNECA) | yonas.yigezu@un.org
 
 
 Project Organization
