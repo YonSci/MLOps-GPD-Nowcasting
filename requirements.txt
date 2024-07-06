@@ -14,4 +14,4 @@ datetime
 pytrends 
 plotly 
 statsmodels
-
+ipywidgets
