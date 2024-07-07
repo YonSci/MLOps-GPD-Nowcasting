@@ -68,37 +68,6 @@ The project is divided into 5 modules:
 
 --------
 
-Resources
--------------
-
-Explore resources designed to help you make the most of our platform:
-  - [Github Project Link](https://github.com/YonSci/MLOps-GPD-Nowcasting/tree/master)
-  - [Tutorials](https://github.com/YonSci/MLOps-GPD-Nowcasting/tree/master/notebooks)
-  - [Data](https://github.com/YonSci/MLOps-GPD-Nowcasting/tree/master/data)
-  - [Model](https://github.com/YonSci/MLOps-GPD-Nowcasting/tree/master/models)
-  - [Documentation](https://github.com/YonSci/MLOps-GPD-Nowcasting/tree/master/reports)
-  - [Blog](https://github.com/YonSci/GPD-Nowcasting)
-
---------
-
-
-Acknowledgments
-------------------
-
-The project is developed by the African Center for Statistics (ACS) at the United Nations Economic Commission for Africa (UNECA) and supported by the Regular Program of Technical Cooperation (RPTC).
-
---------
-
-
-Contact Us
-------------
-  
-  - **Anjana Dube**, Senior Regional Advisor | African Centre for Statistics (ACS) | United Nations Economic Commission for Africa (UNECA) | anjana.dube@un.org
-  - **Issoufou Seidou**, Principal Statistician | African Centre for Statistics (ACS) | United Nations Economic Commission for Africa (UNECA) | seidoui@un.org
-  - **Yonas Mersha**, Data Science Consultant | African Centre for Statistics (ACS) | United Nations Economic Commission for Africa (UNECA) | yonas.yigezu@un.org
-
---------
-
 Project Organization
 ------------
 
@@ -146,5 +115,34 @@ Project Organization
     │       └── visualize.py
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+
+
+Resources
+-------------
+
+Explore resources designed to help you make the most of our platform:
+  - [Github Project Link](https://github.com/YonSci/MLOps-GPD-Nowcasting/tree/master)
+  - [Tutorials](https://github.com/YonSci/MLOps-GPD-Nowcasting/tree/master/notebooks)
+  - [Data](https://github.com/YonSci/MLOps-GPD-Nowcasting/tree/master/data)
+  - [Model](https://github.com/YonSci/MLOps-GPD-Nowcasting/tree/master/models)
+  - [Documentation](https://github.com/YonSci/MLOps-GPD-Nowcasting/tree/master/reports)
+  - [Blog](https://github.com/YonSci/GPD-Nowcasting)
+
+--------
+
+
+Acknowledgments
+------------------
+
+The project is developed by the African Center for Statistics (ACS) at the United Nations Economic Commission for Africa (UNECA) and supported by the Regular Program of Technical Cooperation (RPTC).
+
+--------
+
+Contact Us
+------------
+  
+  - **Anjana Dube**, Senior Regional Advisor | African Centre for Statistics (ACS) | United Nations Economic Commission for Africa (UNECA) | anjana.dube@un.org | anjanad09@gmail.com
+  - **Issoufou Seidou**, Principal Statistician | African Centre for Statistics (ACS) | United Nations Economic Commission for Africa (UNECA) | seidoui@un.org
+  - **Yonas Mersha**, Data Science Consultant | African Centre for Statistics (ACS) | United Nations Economic Commission for Africa (UNECA) | yonas.yigezu@un.org
 
 --------
