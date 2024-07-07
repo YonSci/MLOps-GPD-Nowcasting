@@ -134,7 +134,8 @@ def Landing_Page():
                     
                     <div style="text-align: justify">  
 
-                    - **Anjana Dube**, Senior Regional Advisor | African Centre for Statistics (ACS) | United Nations Economic Commission for Africa (UNECA) | anjana.dube@un.org
+                    - **Anjana Dube**, Senior Regional Advisor | African Centre for Statistics (ACS) | United Nations Economic Commission for Africa (UNECA) | anjana.dube@un.org | anjanad09@gmail.com 
+                    
                     - **Issoufou Seidou**, Principal Statistician | African Centre for Statistics (ACS) | United Nations Economic Commission for Africa (UNECA) | seidoui@un.org
                     - **Yonas Mersha**, Data Science Consultant | African Centre for Statistics (ACS) | United Nations Economic Commission for Africa (UNECA) | yonas.yigezu@un.org
                     </div>
