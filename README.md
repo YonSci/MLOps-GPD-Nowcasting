@@ -1,6 +1,45 @@
 Welcome to the ML based GDP Nowcasting Tool 
 =============================================
 
+Introduction
+------------
+Google Trends data for GDP nowcasting relies on behavioral economic principle that search behavior reflects underlying economic sentiment. This sentiment, in turn, can be a leading indicator of economic activity. The core idea is that people's search behavior on Google reflects their current economic situation and concerns. Google Trends help us to know how people are feeling about the economy. It's like a real-time survey of public sentiment.
+
+For example, during economic booms, consumer confidence is high, leading to increased searches for terms like "loans," "investment opportunities," or "luxury goods." On the other hand, economic downturns (economic crisis) trigger a shift in search behavior towards terms like "unemployment benefits," "debt consolidation," "budgeting tips," or "frugal living."  By analyzing these trends, economists can get a sense of how people are feeling about the economy.  Essentially, Google Trends provides a real-time window into public sentiment and economic concerns,  potentially providing early warnings of economic shifts. When combined with other economic data, it becomes a valuable tool for economists and policymakers.
+
+
+**Advantages**:
+
+- Timeliness: Google Trends data offers near real-time insights, potentially leading to faster detection of economic changes compared to traditional indicators with reporting lags.
+
+- Granularity: Search data can be geographically specific, allowing for analysis at national or even regional levels.
+
+- Complementary Data Source: Google Trends data can be integrated with traditional economic indicators to create a more comprehensive picture of the current economic state.
+
+
+**Limitations**:
+
+- Causality Challenges: Correlation doesn't equal causation. Increased searches for "loans" might not directly cause a GDP rise, but could reflect underlying economic conditions.
+
+- Sentiment vs. Reality: Search behavior might not always reflect actual economic activity. For example, a surge in searches for "unemployment benefits" could indicate a perceived economic downturn, not necessarily a confirmed one.
+
+- External Factors: Google Trends data needs to be considered alongside other factors like government policies, international trade, and natural disasters for a holistic view.
+
+
+**Machine Learning techniques to address limitations**:
+
+While Google Trends data offers a valuable real-time pulse of economic sentiment, its limitations can be mitigated through Machine Learning techniques. 
+
+- Feature engineering, the process of creating new informative features from raw data, can be used. Here, we can identify the most relevant search terms and create composite indices from multiple terms, effectively filtering out noise and amplifying the economic signal. 
+
+- Furthermore, machine learning models can be trained on historical data to learn complex patterns between search trends and economic activity. This allows for more nuanced analysis and potentially more accurate forecasts. 
+
+- Finally, rigorous model calibration and validation procedures are crucial. By testing these models against past economic data and adjusting their parameters accordingly, we can ensure their reliability in predicting future GDP changes. In essence, Machine Learning techniques act as a toolbox to refine Google Trends data, extracting the most relevant economic insights and mitigating limitations for improved GDP nowcasting accuracy.
+
+
+By leveraging Google Trends data strategically and considering its limitations, we can gain valuable insights into the current economic climate and potentially improve our ability to forecast future economic activity.
+
+
 
 📊 Project Overview
 -------------------
