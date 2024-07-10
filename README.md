@@ -1,4 +1,4 @@
-Near Real-Time Economic Predictor: A Machine Learning Approach to GDP Nowcasting with Google Trends
+A Machine Learning Approach to GDP Nowcasting with Google Trends
 =============================================
 
 Introduction
@@ -49,7 +49,7 @@ This process will automate the machine learning lifecycle and enable scalable an
 
 ------
 
-📊 Project Overview
+Project Overview
 -------------------
   
 The GDP Nowcasting app utilizes advanced machine learning algorithms and Google Trends search volume data to deliver accurate and timely GDP predictions. Having up-to-date information on the current state of the economy is essential for effective macroeconomic policymaking, especially during periods of rapid economic change or crises when traditional statistical data sources are unavailable or inaccessible.
