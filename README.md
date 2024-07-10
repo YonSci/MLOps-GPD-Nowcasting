@@ -26,7 +26,7 @@ For example, during economic booms, consumer confidence is high, leading to incr
 - `External Factors:` Google Trends data needs to be considered alongside other factors like government policies, international trade, and natural disasters for a holistic view.
 
 
-**Machine Learning techniques to address limitations**:
+**Machine / Deep Learning techniques to address limitations**:
 
 While Google Trends data offers a valuable real-time pulse of economic sentiment, its limitations can be mitigated through Machine Learning techniques. 
 
