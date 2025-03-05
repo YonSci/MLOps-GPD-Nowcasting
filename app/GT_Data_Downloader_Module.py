@@ -4,7 +4,14 @@ from datetime import datetime
 import time
 #pd.set_option('future.no_silent_downcasting', True)
 from pytrends.request import TrendReq
-pytrends = TrendReq(hl='en-US', tz=360, timeout=(40,25))
+
+requests_args = {
+    'headers': {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36'
+    }
+}
+
+pytrends = TrendReq(hl='en-US', tz=360, timeout=(40,25), requests_args=requests_args)
 
 
 #  blue, green, orange, red, violet, gray/grey, rainbow.
